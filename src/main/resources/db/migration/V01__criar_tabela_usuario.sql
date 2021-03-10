@@ -1,0 +1,7 @@
+/*Para utilizar Mysql inserir ENGINE=InnoDB DEFAULT CHARSET=UTF8MB4*/
+CREATE TABLE app_user (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(150) NOT NULL,
+    display_name VARCHAR(100) NOT NULL
+) /*ENGINE=InnoDB DEFAULT CHARSET=UTF8MB4*/;
